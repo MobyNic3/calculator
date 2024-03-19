@@ -1,0 +1,23 @@
+#container {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+  }
+  
+  div {
+    display: flex;
+    flex: 1;
+  }
+  
+  button {
+    flex: 1;
+  }
+  
+  #display {
+    flex: 1;
+    text-align: right;
+    padding: 5px;
+  }
+  
